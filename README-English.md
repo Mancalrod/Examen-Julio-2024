@@ -1,5 +1,8 @@
 # IISSI-2 IS: Lab exam July 2024. 
 
+>[!WARNING] 
+> This project adds a new table. If you have to work with other Deliverus project, first **you must delete all tables** in "DeliverUS" database before executing the project migration. This is due to "db:create" and  "db:drop" Sequelize-cli operations are not available for MariaDB.
+
 ## Live performances. Description
 
 After the initial launch of DeliverUS, investors have requested a new feature that allows owners to register live performances in their restaurants in order to advertise their customers.
@@ -57,9 +60,6 @@ containerPerformance: {
 
 To make easier the development of this exam, you should consider:
 * On the "CreatePerformance" frontend screen, note the date format of performance field. By default, it is English format. It is not necessary to change it to Spanish format.
-
-Migration troubles with other "DeliverUS"-based projects:
-* This project adds a new table. If **later** you work with other project, first you must delete **all** tables in "DeliverUS" database by using HeidiSQL or another similar tool **before** executing the project migration. This is due to "db:create" and  "db:drop" Sequelize-cli operations are not available for MariaDB.
 
 ## Help:
 
