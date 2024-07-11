@@ -1,5 +1,8 @@
 # IISSI-2 IS: Examen de laboratorio Julio 2024. 
 
+>[!WARNING] 
+>El proyecto de este examen agrega una tabla nueva. Si vas a trabajar con otros proyectos de la asignatura, previamente debes **borrar todas las tablas** de la base de datos "DeliverUS" antes de ejecutar la migración del proyecto. Esto es debido a que las operaciones "db:create" y "db:drop" de Sequelize-cli no están disponibles para MariaDB.
+
 ## Actuaciones en directo. Enunciado
 
 Una vez se ha puesto en marcha la primera versión de DeliverUS, los inversores han solicitado la inclusión de una nueva funcionalidad que consiste en ofrecer a los propietarios la posibilidad de registrar actuaciones musicales en directo para darle publicidad. 
