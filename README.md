@@ -2,6 +2,9 @@
 
 >[!WARNING] 
 >El proyecto de este examen agrega una tabla nueva. Si vas a trabajar con otros proyectos de la asignatura, previamente debes **borrar todas las tablas** de la base de datos "DeliverUS" antes de ejecutar la migración del proyecto. Esto es debido a que las operaciones "db:create" y "db:drop" de Sequelize-cli no están disponibles para MariaDB.
+
+>[!WARNING] 
+>El proyecto de este examen agrega una tabla nueva. Si vas a trabajar con otros proyectos de la asignatura, previamente debes **borrar todas las tablas** de la base de datos "DeliverUS" antes de ejecutar la migración del proyecto. Esto es debido a que las operaciones "db:create" y "db:drop" de Sequelize-cli no están disponibles para MariaDB.
   
 ## Actuaciones en directo. Enunciado
 
